@@ -27,8 +27,8 @@ body{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	width:310px;
-	height: 450px;
+	width:250px;
+	height: 400px;
 	<!background: #222;>
 	background-radius: 20px;
 	box-shadow: 0 0 25px #000;
@@ -42,4 +42,7 @@ body{
 .container .block .quote-img {
 	width:60px;
 	
+}
+.container .block .face{
+	height: 250;
 }
