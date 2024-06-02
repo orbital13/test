@@ -16,7 +16,7 @@ body{
 }
 .container {
 	position: relative;
-	width: 90vw;
+	width: 70vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline ;
