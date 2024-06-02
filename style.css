@@ -27,7 +27,7 @@ body{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	width:220px;
+	width:250px;
 	height: 440px;
 	<!background: #222;>
 	background-radius: 20px;
@@ -44,5 +44,5 @@ body{
 	
 }
 .container .block .face{
-	height: 150;
+	height: 150px;
 }
