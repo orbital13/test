@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,san-serif;
+	
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url("img/kailas.jpg");
+	background-size: 100vw; 
+}
+.container {
+	position: relative;
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline ;
+}
+.container .block {
+	
+	position: relative;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width:310px;
+	height: 450px;
+	<!background: #222;>
+	background-radius: 20px;
+	box-shadow: 0 0 25px #000;
+	background-color: rgba(0,255,255,.1);
+	backdrop-filter: blur(3px);
+}
+.container .block .content{
+	padding: 30px;
+	text-align:center;
+}
+.container .block .quote-img {
+	width:60px;
+	
+}
