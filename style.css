@@ -27,8 +27,8 @@ body{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	width:200px;
-	height: 350px;
+	width:220px;
+	height: 440px;
 	<!background: #222;>
 	background-radius: 20px;
 	box-shadow: 0 0 25px #000;
