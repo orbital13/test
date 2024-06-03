@@ -1,48 +1,83 @@
-*{
-	margin: 0;
-	padding: 0
-	box-sizing: border-box;
-	font-family: Arial,Helvetica,san-serif;
-	
+body {
+    margin: 0;
+    padding: 0;
+	box-sizing:borderbox;
+	position: relative;
+	/*overflow: hidden;*/
 }
-
-body{
-	display: flex;
+.header{
+    background-color: #006400;
+    color: yellow;
+    height: 120px;
+    display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	background: url("img/kailas.jpg");
-	background-size: 100vw; 
-}
-.container {
-	position: relative;
-	width: 70vw;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline ;
-}
-.container .block {
+	text-align: center;
 	
-	position: relative;
-	display: flex;
-	justify-content:center;
+}
+.navbar {
+	position:absolute;
+	z-index: 1;
+	top: 50%;
+	right: 0;
+	background: yellow;
+	transform: translateY(-50%);
+	border-radius: 10px 0 0 10px;
+}
+.navbar a{
+	z-index: 1;
+	display: block;
+	width: 15px;
+	height:15px;
+	margin: 3px;
+	border-radius: 50%;
+	color: green;
+	/*background-image: url("img/1.png");*/
+}
+
+
+
+.footer{
+    background-color: red;
+    color: white;
+    height: 100px;
+    display: flex;
+	justify-content: center;
 	align-items: center;
-	width:250px;
-	height: 440px;
-	<!background: #222;>
-	background-radius: 20px;
-	box-shadow: 0 0 25px #000;
-	background-color: rgba(0,255,255,.1);
-	backdrop-filter: blur(3px);
-}
-.container .block .content{
-	padding: 30px;
-	text-align:center;
-}
-.container .block .quote-img {
-	width:60px;
+	
 	
 }
-.container .block .face{
-	height: 150px;
+.card{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(20,50,100,0.8);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+}
+.card img{
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100;
+	object-fit: cover;
+	/*filter: brightness(0.5);*/
+}
+.card-content{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	z-index: 3;
+	left: 50;
+	top: 50;
+	width: 80%;
+	height: 100%;
+	color: #E5EE2D;
+	font-size: 30pt;
+	text-align: center;
+	display: inline-block;
 }
