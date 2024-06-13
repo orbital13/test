@@ -1,83 +1,212 @@
+@font-face{
+	font-family: 'BLANGKON Remastered';
+	src: local('BLANGKON Remastered'),url('font/BLANGKON Remastered.ttf');
+}
+
+
+*{
+	max-width: 500px;
+	max-height: 890px;
+	
+	margin: 0;
+    padding: 0;	
+}
 body {
-    margin: 0;
-    padding: 0;
-	box-sizing:borderbox;
-	position: relative;
-	/*overflow: hidden;*/
-}
-.header{
-    background-color: #006400;
-    color: yellow;
-    height: 120px;
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	
-}
-.navbar {
-	position:absolute;
-	z-index: 1;
-	top: 50%;
-	right: 0;
-	background: yellow;
-	transform: translateY(-50%);
-	border-radius: 10px 0 0 10px;
-}
-.navbar a{
-	z-index: 1;
-	display: block;
-	width: 15px;
-	height:15px;
-	margin: 3px;
-	border-radius: 50%;
-	color: green;
-	/*background-image: url("img/1.png");*/
 }
 
 
-
-.footer{
-    background-color: red;
-    color: white;
-    height: 100px;
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	
-}
-.card{
-	width: 100vw;
-	height: 100vh;
-	background-color: rgb(20,50,100,0.8);
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: sticky;
-	top: 0;
-}
-.card img{
-	z-index: 2;
-	position: absolute;
+.head{
+	background-color: #47A6C9;
+    display: inline-block;
+    height: 10vh;
+	width: 500px;
+	/*padding: 3.3rem;*/
+	position: static;
 	left: 0;
 	top: 0;
-	width: 100vw;
-	height: 100;
-	object-fit: cover;
-	/*filter: brightness(0.5);*/
+
+	background-image: url("img/head.jpg");
+	/*transform: translate(-10%, -10%);*/
 }
-.card-content{
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	z-index: 3;
-	left: 50;
-	top: 50;
-	width: 80%;
-	height: 100%;
-	color: black;
-	font-size: 20pt;
-	text-align: center;
+.head p{
+	
+	z-index:1;
 	display: inline-block;
+	position: relative;
+	font-family: 'BLANGKON Remastered';
+	color: #4375F6;
+	text-shadow: 2px 4px 2px black;
+	font-size: 6vh;
+	top: 15px;
+	left: 5vw;
+}
+.foot{
+	/*background-color: #47A6C9;*/
+    background-image: url("img/head.jpg");
+    height: 9vh;
+	width: 500px;
+	display: flex;
+	
+	justify-content: center;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	/*padding: 3.3rem;*/
+}
+
+.button{
+	z-index: 2;
+	/*background-color: #47A6C9;*/
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	position: sticky;
+	 height: 9vh;
+	width: 500px;
+	display: flex;
+	/*display:flex;*/
+	 
+	left: 0;
+	bottom: 50%;
+	background-size: cover;
+	
+}
+.button img{
+	z-index: 1;
+	/*background-color: #47A6C9;*/
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	position: static;
+	max-width: 15vw;
+	max-height:10vh;
+	/*display:flex;*/
+	left: 0;
+	bottom: 0;
+	background-size: cover;
+	
+}
+.button a{
+	z-index: 2;
+	/*background-color: #47A6C9;*/
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	position: absolute;
+	display:flex;
+	left: 8vw;
+	bottom: 2;
+	background-size: cover;
+	text-decoration: none;
+}
+.button p {
+	z-index:1;
+	font-family: 'BLANGKON Remastered';
+	/*color: #28F1EE;*/
+	color: #4375F6;
+	text-shadow: 2px 4px 2px black;
+	text-align: center;
+	justify-content: center;
+	font-size: 7vh;
+	left: 0vw;
+	bottom: 10vh;
+			
+}
+
+.container{
+	
+	position: relative;
+	/*top: 120px;*/
+	left: 0;
+	
+}
+
+.card1, .card2, .card3 {
+	position: sticky;
+	
+}
+.card1 img {
+	z-index:2;
+	width: 100vw;
+	height: 890px;
+	left: 0;
+	top: 0;
+	
+}
+.card2 img {
+	z-index:2;
+	width: 100vw;
+	height: 890px;
+	left: 0;
+	top: 0;
+}
+.card3 img {
+	z-index:2;
+	width: 100vw;
+	height: 890px;
+	left: 0;
+	top: 0;
+}
+.card1-content p{
+	color: #D0CE25;
+	z-index :1;
+	
+	/*font-weight: bold;*/
+	
+	font-family: 'BLANGKON Remastered';
+	left: 1vw;
+	top: 12vh;
+	width: 180%;
+	font-size: 6.5vh;
+	position: absolute;
+	text-align: center;
+	text-shadow:  6px 4px 4px black;
+}
+.card2-content p {
+	
+	color: #D0CE25;
+	z-index:1;
+	font-family: 'BLANGKON Remastered';
+	
+	width: 500px;
+	
+	
+	left: 1vw;
+	top: 7vh;
+	width: 80%;
+	font-size: 8vh;
+	position: absolute;
+	text-align: center;
+	
+	text-shadow:  6px 4px 2px black;
+}
+.card2-content ul {
+	color: #D0CE25;
+	z-index:1;
+	font-family: 'Lifehack Sans';
+	font-weight: bold;
+	
+	
+	left: 14vw;
+	top: 23vh;
+	width: 80%;
+	font-size: 4.5vh;
+	position: absolute;
+	text-align: left;
+	text-shadow:  -2px -1px 2px  black;
+	
+	
+}
+.card3-content p {
+	color: #D0CE25;
+	z-index:1;
+	font-family: 'BLANGKON Remastered';
+	/*font-family: 'Felidae';*/
+	/*font-weight: bold;*/
+	width: 500px;
+	
+	left: 10vw;
+	top: 15vh;
+	width: 80%;
+	font-size: 5vh;
+	position: absolute;
+	text-align: center;
+	text-shadow: 4px 2px 3px black;
+	
+	
 }
