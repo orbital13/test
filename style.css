@@ -146,36 +146,36 @@ body {
 	top: 0;
 }
 .card1-content p{
-	color: #D0CE25;
-	z-index :1;
 	
+	z-index :1;
 	/*font-weight: bold;*/
 	
 	font-family: 'Panton Rust';
 	left: 6vw;
 	top: 12vh;
-	width: 100vw;
+	width: 80vw;
 	font-size: 5vh;
 	position: absolute;
 	text-align: center;
-	text-shadow:  6px 4px 4px black;
+	color: black;
+	text-shadow:  4px 4px 2px yellow;
 }
 .card2-content p {
 	
-	color: #D0CE25;
 	z-index:1;
 	font-family: 'Panton Rust';
 	
 	width: 100vw;
 	
-	left: 1vw;
+	left: 2vw;
 	top: 6vh;
 	width: 80vw;
 	font-size: 5vh;
 	position: absolute;
 	text-align: center;
+	color: black;
+	text-shadow:  4px 4px 2px yellow;
 	
-	text-shadow:  6px 4px 2px black;
 }
 .card2-content ul {
 	color: #D0CE25;
@@ -195,7 +195,7 @@ body {
 	
 }
 .card3-content p {
-	color: #D0CE25;
+
 	z-index:1;
 	font-family: 'Panton Rust';
 	/*font-family: 'Felidae';*/
@@ -209,7 +209,8 @@ body {
 	font-size: 4vh;
 	position: absolute;
 	text-align: center;
-	text-shadow: -2px 2px 2px black;
+	color: yellow;
+	text-shadow:  6px 7px 3px black;
 	
 	
 }
