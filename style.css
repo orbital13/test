@@ -1,6 +1,6 @@
 @font-face{
-	font-family: 'BLANGKON Remastered';
-	src: local('BLANGKON Remastered'),url('fonts/BLANGKON Remastered.ttf');
+	font-family: 'Panton Rust';
+	src: local('Panton Rust'),url('fonts/Panton Rust Heavy Gr Sh.ttf');
 }
 @font-face{
 	font-family: 'lifehack Sans';
@@ -37,12 +37,12 @@ body {
 	z-index:1;
 	display: inline-block;
 	position: relative;
-	font-family: 'BLANGKON Remastered';
+	font-family: 'Panton Rust';
 	color: #4375F6;
 	text-shadow: 2px 4px 2px black;
-	font-size: 5vh;
+	font-size: 4vh;
 	top: 15px;
-	left: 5vw;
+	left: 1vw;
 }
 .foot{
 	/*background-color: #47A6C9;*/
@@ -99,13 +99,13 @@ body {
 }
 .button p {
 	z-index:1;
-	font-family: 'BLANGKON Remastered';
+	font-family: 'Panton Rust';
 	/*color: #28F1EE;*/
 	color: #4375F6;
 	text-shadow: 2px 4px 2px black;
 	text-align: center;
 	justify-content: center;
-	font-size: 5.2vh;
+	font-size: 5vh;
 	left: 0vw;
 	bottom: 10vh;
 			
@@ -151,11 +151,11 @@ body {
 	
 	/*font-weight: bold;*/
 	
-	font-family: 'BLANGKON Remastered';
+	font-family: 'Panton Rust';
 	left: 6vw;
 	top: 12vh;
 	width: 80vw;
-	font-size: 6.5vh;
+	font-size: 5vh;
 	position: absolute;
 	text-align: center;
 	text-shadow:  6px 4px 4px black;
@@ -164,14 +164,14 @@ body {
 	
 	color: #D0CE25;
 	z-index:1;
-	font-family: 'BLANGKON Remastered';
+	font-family: 'Panton Rust';
 	
 	width: 100vw;
 	
 	left: 1vw;
-	top: 8vh;
+	top: 6vh;
 	width: 80vw;
-	font-size: 6vh;
+	font-size: 5vh;
 	position: absolute;
 	text-align: center;
 	
@@ -197,7 +197,7 @@ body {
 .card3-content p {
 	color: #D0CE25;
 	z-index:1;
-	font-family: 'BLANGKON Remastered';
+	font-family: 'Panton Rust';
 	/*font-family: 'Felidae';*/
 	/*font-weight: bold;*/
 	
@@ -206,10 +206,10 @@ body {
 	left: 10vw;
 	top: 8vh;
 	width: 80vw;
-	font-size: 5vh;
+	font-size: 4vh;
 	position: absolute;
 	text-align: center;
-	text-shadow: 4px 2px 3px black;
+	text-shadow: -2px 2px 2px black;
 	
 	
 }
