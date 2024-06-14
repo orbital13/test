@@ -78,11 +78,10 @@ body {
 	/*background-color: #47A6C9;*/
 	/*background-color: rgba(0, 0, 0, 0.5);*/
 	position: static;
-	max-width: 15vw;
-	max-height:10vh;
+	width: 15vw;
+	height:10vh;
 	/*display:flex;*/
-	left: 0;
-	bottom: 0;
+	
 	background-size: cover;
 	
 }
@@ -93,7 +92,7 @@ body {
 	position: absolute;
 	display:flex;
 	left: 8vw;
-	bottom: 2;
+	bottom: -10px;
 	background-size: cover;
 	text-decoration: none;
 }
@@ -209,8 +208,9 @@ body {
 	font-size: 4vh;
 	position: absolute;
 	text-align: center;
-	color: yellow;
-	text-shadow:  6px 7px 3px black;
+	color: black;
+	
+	text-shadow:  6px 7px 3px yellow;
 	
 	
 }
