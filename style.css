@@ -158,8 +158,8 @@ body {
 	font-size: 4.6vh;
 	position: absolute;
 	text-align: center;
-	color: black;
-	text-shadow:  4px 4px 2px yellow;
+	color: #8C8625;
+	text-shadow:  2px 2px 2px #DEDDAE;
 }
 .card2-content p {
 	
@@ -174,8 +174,8 @@ body {
 	font-size: 5vh;
 	position: absolute;
 	text-align: center;
-	color: black;
-	text-shadow:  4px 4px 2px yellow;
+	color: #8C8625;
+	text-shadow:  2px 2px 2px #DEDDAE;
 	
 }
 .card2-content ul {
