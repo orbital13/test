@@ -303,7 +303,7 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	
-	margin:60% auto;
+	margin:10% auto;
 	
 }
 .slide1{
@@ -316,16 +316,16 @@ body {
 
 
 .slide1 img{
-	
+	margin:10% auto;
 	display: inline-block;
 	border-radius: 10px;
-	width: 30vw;
+	width: 60vw;
 	height: auto;
 	z-index: 2;
 	
 	border: 1px solid #88E1F0;
-	/*object-fit: cover;*/
-	object-fit: contain;
+	object-fit: cover;
+	/*object-fit: contain;*/
 }
 
 
