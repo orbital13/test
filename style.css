@@ -296,7 +296,7 @@ body {
 	border-radius: 20px;
 }
 .card4-content{
-	
+	display: inline-block;
 	position: sticky;
 
 	z-index:3;
