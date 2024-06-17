@@ -319,7 +319,7 @@ body {
 	
 	display: inline-block;
 	border-radius: 10px;
-	width: 100%;
+	width: auto;
 	height: auto;
 	z-index: 2;
 	
