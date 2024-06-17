@@ -284,7 +284,7 @@ body {
 	border-radius: 20px;
 }
 .card4 {
-	display: flex;
+	display: inline-block;
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
@@ -296,9 +296,9 @@ body {
 	border-radius: 20px;
 }
 .card4-content{
-	display: flex;
-	position: sticky;
 	
+	position: sticky;
+	display: flex;
 	z-index:3;
 	position: sticky;
 	white-space: nowrap;
@@ -309,8 +309,6 @@ body {
 }
 .slide1{
 	z-index:2;
-	display: flex;
-	position: relative;
 	
 	animation: slide1 70s linear infinite;
 	
@@ -318,8 +316,8 @@ body {
 
 
 .slide1 img{
-	display: flex;
-	position: static;
+	
+	
 	border-radius: 10px;
 	width: 300px;
 	height: 400px;
