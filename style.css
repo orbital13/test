@@ -303,14 +303,14 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	
-	margin:30% auto;
+	margin:60% auto;
 	
 }
 .slide1{
 	z-index:2;
 	display: inline-block;
 	position: sticky;
-	animation: slide1 50s linear infinite;
+	animation: slide1 40s linear infinite;
 	
 }
 
@@ -334,7 +334,7 @@ body {
 	transform: translateX(100vw);
 	}
 	to{
-		transform: translateX(-550vw);
+		transform: translateX(-650vw);
 		}
 }
 
