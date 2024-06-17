@@ -297,33 +297,34 @@ body {
 }
 .card4-content{
 	display: inline-block;
-	position: sticky;
-
+	position: relative;
 	z-index:3;
-	position: sticky;
+	
 	white-space: nowrap;
 	overflow: hidden;
 	
-	margin:50% auto;
+	margin:30% auto;
 	
 }
 .slide1{
 	z-index:2;
-	
-	animation: slide1 70s linear infinite;
+	display: inline-block;
+	position: sticky;
+	animation: slide1 50s linear infinite;
 	
 }
 
 
 .slide1 img{
 	
-	object-fit: cover;
+	display: inline-block;
 	border-radius: 10px;
 	width: 300px;
 	height: 400px;
 	z-index: 2;
 	margin:0 10px;
 	border: 1px solid #88E1F0;
+	object-fit: cover;
 }
 
 
@@ -332,7 +333,7 @@ body {
 	transform: translateX(100vw);
 	}
 	to{
-		transform: translateX(-800vw);
+		transform: translateX(-550vw);
 		}
 }
 
@@ -413,7 +414,7 @@ body {
 	width: 100vw;
 	
 	left: 8%;
-	top: 10vh;
+	top: 8vh;
 	width: 90vw;
 	font-size: 3vh;
 	position: absolute;
