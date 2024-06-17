@@ -311,7 +311,7 @@ body {
 	z-index:2;
 	display: flex;
 	position: relative;
-	
+	display: inline-block;
 	animation: slide1 70s linear infinite;
 	
 }
