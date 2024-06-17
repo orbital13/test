@@ -309,7 +309,7 @@ body {
 }
 .slide1{
 	z-index:2;
-	display: inline-block;
+	
 	animation: slide1 70s linear infinite;
 	
 }
