@@ -396,12 +396,10 @@ body {
 	font-family: 'Rubik Black';
 	
 	
-	width: 100vw;
-	
 	left: 7%;
-	top: 25%;
+	top: 5%;
 	width: 80vw;
-	font-size: 2.5vh;
+	font-size: 3vh;
 	position: absolute;
 	text-align: center;
 	color: #302F0C;
@@ -415,7 +413,7 @@ body {
 	width: 100vw;
 	
 	left: 8%;
-	top: 10%;
+	top: 8vh;
 	width: 90vw;
 	font-size: 3vh;
 	position: absolute;
