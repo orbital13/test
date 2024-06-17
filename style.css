@@ -322,7 +322,7 @@ body {
 	width: 300px;
 	height: 400px;
 	z-index: 2;
-	margin:0 10px;
+	
 	border: 1px solid #88E1F0;
 	object-fit: cover;
 }
