@@ -20,8 +20,8 @@ body {
 }
 .dropbase{
 	height: 100vh;
-	/*display: inline;
-	position: sticky;*/
+	display: inline;
+	position: sticky;
 	
 }
 .drop1 img{
@@ -76,6 +76,7 @@ body {
 	left: 20vw;
 }
 .drop2 {
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -90,6 +91,7 @@ body {
 }
 
 .drop3 {
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -103,6 +105,7 @@ body {
 	left: 40vw;
 }
 .drop4 {
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -116,6 +119,7 @@ body {
 	left: 50vw;
 }
 .drop5 {
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -131,11 +135,11 @@ body {
 .head{
 	
 	background-color: #47A6C9;
-    display: absolute;
+    display: flex;
     height: 10vh;
 	width: 100vw;
 	/*padding: 3.3rem;*/
-	position: sticky;
+	position: relative;
 	left: 0;
 	top: 0;
 	z-index:1;
@@ -280,26 +284,62 @@ body {
 	border-radius: 20px;
 }
 .card4 {
-	display: flex; 
+	display: flex;
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/4.jpg");
+	background: url("img/tools.jpg");
 	background-repeat: no-repeat;
 	 background-size: 100vw 100vh;
 	width: 100vw;
 	height: 100vh;
 	border-radius: 20px;
 }
-
+.card4-content{
+	display: flex;
+	position: sticky;
+	height: 100%;
+	z-index:3;
+	position: sticky;
+	white-space: nowrap;
+	overflow: hidden;
+	
+	margin:10% auto;
+	
 }
-.card3 img {
+.slide1{
 	z-index:2;
-	width: 100vw;
-	height: 100vh;
-	left: 0;
-	top: 0;
+	display: flex;
+	position: relative;
+	
+	animation: slide1 70s linear infinite;
+	
 }
+
+
+.slide1 img{
+	display: flex;
+	
+	border-radius: 10px;
+	height:100vh;
+	width: auto;
+	z-index: 2;
+	margin:0 10px;
+	/*border: 1px solid #88E1F0;*/
+	object-fit: contain;
+}
+
+
+@keyframes slide1 {
+	from { 
+	transform: translateX(100vw);
+	}
+	to{
+		transform: translateX(-800vw);
+		}
+}
+
+
 .card1-content p{
 	
 	z-index :2;
@@ -307,8 +347,8 @@ body {
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	left: 8%;
-	top: 9vh;
-	width: 85vw;
+	top: 5%;
+	width: 80vw;
 	font-size: 4.4vh;
 	position: absolute;
 	text-align: center;
@@ -321,7 +361,7 @@ body {
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	
-	width: 100vw;
+	width: 98vw;
 	
 	left: 12%;
 	top: 5.5vh;
@@ -360,7 +400,7 @@ body {
 	width: 100vw;
 	
 	left: 7%;
-	top: 5%;
+	top: 25%;
 	width: 80vw;
 	font-size: 2.5vh;
 	position: absolute;
@@ -369,16 +409,16 @@ body {
 	text-shadow:  1px 1px 25px #EBEDA9;
 	
 }
-.card4-content p {
+.card4 p {
 
 	z-index:1;
 	font-family: 'Rubik Black';
 	width: 100vw;
 	
 	left: 8%;
-	top: 3%;
-	width: 80vw;
-	font-size: 2.3vh;
+	top: 10vh;
+	width: 90vw;
+	font-size: 3vh;
 	position: absolute;
 	text-align: center;
 	color: #302F0C;
