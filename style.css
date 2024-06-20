@@ -593,11 +593,12 @@ padding: 50% auto;
 	z-index:3;
 	font-family: 'Rubik Black';
 	font-weight: bold;
-	
+	/*word-break: break-all;*/
 	
 	top: 4vw;
 	left: 2vw;
-	
+	width: 17vw;
+	height: 25vw;
 	font-size:2vh;
 	display: absolute; 
 	position: relative;
