@@ -1,8 +1,5 @@
 
-@font-face{
-	font-family: 'lifehack Sans';
-	src: local('lifehack Sans'),url('fonts/lifehack Sans.ttf');
-}
+
 @font-face{
 	font-family: 'Rubik Black';
 	src: local('Rubik Black'),url('fonts/Rubik Black.ttf');
@@ -375,14 +372,14 @@ body {
 .card2-content ul {
 	
 	z-index:2;
-	font-family: 'Lifehack Sans';
+	font-family: 'Rubik Black';
 	font-weight: bold;
-	
+	line-height: 1.5;
 	
 	left: 14vw;
 	top: 14vh;
 	width: 80vw;
-	font-size: 5vh;
+	font-size: 3.3vh;
 	position: absolute;
 	text-align: left;
 	color: #black;
@@ -594,9 +591,9 @@ padding: 50% auto;
 	font-family: 'Rubik Black';
 	font-weight: bold;
 	/*word-break: break-all;*/
-	
-	top: 4vw;
-	left: 2vw;
+	line-height: 1.4;
+	top: 2.9vw;
+	left: 2.2vw;
 	width: 17vw;
 	height: 25vw;
 	font-size:2vh;
