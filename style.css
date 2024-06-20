@@ -346,9 +346,9 @@ body {
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	left: 8%;
-	top: 5%;
+	top: 9vh;
 	width: 80vw;
-	font-size: 4.4vh;
+	font-size: 4vh;
 	position: absolute;
 	text-align: center;
 	color: #302F0C;
@@ -399,7 +399,7 @@ body {
 	left: 7%;
 	top: 5%;
 	width: 80vw;
-	font-size: 3vh;
+	font-size: 2.8vh;
 	position: absolute;
 	text-align: center;
 	color: #302F0C;
@@ -412,7 +412,7 @@ body {
 	font-family: 'Rubik Black';
 	width: 100vw;
 	
-	left: 8%;
+	left: 5vw;
 	top: 8vh;
 	width: 90vw;
 	font-size: 3vh;
@@ -563,7 +563,7 @@ padding: 50% auto;
 	/*font-family: 'Panton Rust';*/
 	left: 1vw;
 	font-size: 1.5vw;
-	top: 2vh;
+	top: 4vh;
 	width: 17vw;
 	height: 25vw;
 	
@@ -576,7 +576,7 @@ padding: 50% auto;
 	display: run-in;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
-	left: 5vh;
+	left: 6vh;
 	top: 1vw;
 	font-size: 1.5vw;
 	
@@ -596,7 +596,7 @@ padding: 50% auto;
 	
 	
 	top: 2vw;
-	left: 11%;
+	left: 2.5vw;
 	
 	font-size:1.5vw;
 	display: absolute; 
@@ -615,10 +615,10 @@ padding: 50% auto;
 	z-index :2;
 	font-family: 'Rubik Black';
 	left: 1vh;
-	top: 5vh;
-	width: 17vw;
+	top: 3.5vh;
+	width: 18vw;
 	height: 25vw;
-	font-size: 1vw;
+	font-size: 1.1vw;
 	text-align: center;
 	color: #302F0C;
 	text-shadow:  1px 1px 23px #EBEDA9;
@@ -651,7 +651,7 @@ padding: 50% auto;
 	font-family: 'Rubik Black';
 	/*width: 100vw;*/
 	width: 17vw;
-	height: 25vw;width: 20vw;
+	width: 20vw;
 	height: 30vw;
 	left: 1vh;
 	top: 2vh;
