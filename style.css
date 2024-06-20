@@ -341,7 +341,7 @@ body {
 
 .card1-content p{
 	
-	z-index :2;
+	z-index :3;
 	
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
@@ -356,7 +356,7 @@ body {
 }
 .card2-content p {
 	
-	z-index:2;
+	z-index:3;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	
@@ -422,3 +422,455 @@ body {
 	text-shadow:  1px 1px 25px #EBEDA9;
 	
 }
+/*--------------------------------------------------------*/
+@media (min-width: 1081px){
+	*{
+	
+	/*max-height: 100vh;*/
+   /*overflow: none;*/
+	
+}
+body{
+	z-index: 3;
+	width: 100vw;
+	height: 100vh;	
+background-image: url("img/bgh.jpg");	
+background-repeat: no-repeat;
+background-size:100vw 100vh;
+/*border: 3px solid green;*/
+padding: 50% auto;	
+}	
+	
+	.container{
+	display: flex;
+	position: relative;
+	margin: 50px 100px;
+	padding-top: 4vw;
+	/*top: 120px;*/
+	left: 0vw;
+	z-index:3;	
+	
+	
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+	.head{
+	left: 50%;
+	width: 0px;
+	/*background-color: transparent;*/
+    height: 6vh;
+	display: flex;
+    position:relative;
+	justify-content: center;
+	z-index:3;
+	/*background-image: url("img/head.jpg");
+	background-size:auto;
+	background-position: center;*/
+	
+}
+.head p{
+	width: 60vw;
+	z-index:3;
+	display: flex;
+	position: relative;
+	/*font-family: 'Panton Rust';*/
+	font-family: 'Rubik Black';
+	color: #302F0C;
+	text-shadow:  2px 3px 23px #F1ED2F;
+	font-size: 3vw;
+	left: 50%;
+	top:2vh;
+	text-align: center;
+	white-space: nowrap;
+	/*
+	line-height:20vh;
+	text-align: center;
+	top: 0;*/
+}
+
+	
+.card1{
+		
+	margin:  10px 10px;	
+	display: inline-block; 
+	position: relative;
+	border: 1px solid #88E1F0;
+	z-index:3;
+	background: url("img/1.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size:20vw 30vw;
+	width: 20vw;
+	height: 30vw;
+	/*justify-content: center;*/
+	border-radius: 30px;
+	/*transform: rotate(90deg);*/
+}
+.card2 {
+	margin:  10px 10px;		
+	display: inline-block; 
+	position: relative;
+	border: 1px solid #88E1F0;
+	z-index:3;
+	background: url("img/2.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size:20vw 30vw;
+	width: 20vw;
+	height: 30vw;
+	/*justify-content: center;*/
+	border-radius: 30px;
+}
+.card3 {
+	margin:  10px 10px;	
+	display: inline-block;
+	position: relative;
+	border: 1px solid #88E1F0;
+	z-index:3;
+	background: url("img/3.jpg");
+	background-repeat: no-repeat;
+	background-size:20vw 30vw;
+	width: 20vw;
+	height: 30vw;
+	/*justify-content: center;*/
+	border-radius: 30px;
+}	
+.card4 {
+	margin:  10px 10px;	
+	display: flex;
+	position: sticky;
+	border: 1px solid #88E1F0;
+	z-index:3;
+	background: url("img/tools.jpg");
+	background-repeat: no-repeat;
+	background-size:20vw 30vw;
+	width: 20vw;
+	height: 30vw;
+	/*justify-content: center;
+	*/
+	border-radius: 30px;
+	overflow: hidden;
+}	
+.card1-content p{
+	justify-content: center;
+	z-index :3;
+	display: run-in;
+	position: relative;
+	font-family: 'Rubik Black';
+	/*font-family: 'Panton Rust';*/
+	left: 1vw;
+	font-size: 1.5vw;
+	top: 2vh;
+	width: 17vw;
+	height: 25vw;
+	
+	color: #302F0C;
+	text-shadow:  1px 1px 23px #EBEDA9;
+}
+.card2-content p {
+	
+	z-index :3;
+	display: run-in;
+	font-family: 'Rubik Black';
+	/*font-family: 'Panton Rust';*/
+	left: 5vh;
+	top: 1vw;
+	font-size: 1.5vw;
+	
+	
+	display: flex;
+	position: relative;
+	/*text-align: center;*/
+	color: #302F0C;
+	text-shadow:  1px 1px 23px #EBEDA9;
+	
+}
+.card2-content ul {
+	
+	z-index:3;
+	font-family: 'Lifehack Sans';
+	font-weight: bold;
+	
+	
+	top: 2vw;
+	left: 11%;
+	
+	font-size:1.5vw;
+	display: absolute; 
+	position: relative;
+	text-align: left;
+	color: #black;
+	text-shadow:  2px 3px 23px #EBEDA9;
+	
+	
+}
+.card3-content p {
+	display: run-in;
+	margin:  0 1%;	
+	display: inline-block; 
+	position: relative;
+	z-index :2;
+	font-family: 'Rubik Black';
+	left: 1vh;
+	top: 5vh;
+	width: 17vw;
+	height: 25vw;
+	font-size: 1vw;
+	text-align: center;
+	color: #302F0C;
+	text-shadow:  1px 1px 23px #EBEDA9;
+	
+}
+.card4-content{
+	display: inline-block;
+	position: relative;
+	z-index:3;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	width: 30vw;
+	height: 40vw;
+	
+	
+	/*display: inline-block;
+	position: relative;
+	z-index:3;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	*/
+}
+
+
+.card4 p {
+
+	z-index:1;
+	font-family: 'Rubik Black';
+	/*width: 100vw;*/
+	width: 17vw;
+	height: 25vw;width: 20vw;
+	height: 30vw;
+	left: 1vh;
+	top: 2vh;
+	
+	font-size: 2vh;
+	
+	text-align: center;
+	color: #302F0C;
+	text-shadow:  1px 1px 25px #EBEDA9;
+	
+}
+.slide1{
+	z-index:1;
+	
+
+	position: sticky;
+	animation: slide1 50s linear infinite;
+	
+}
+
+
+.slide1 img{
+	margin:5% 5px;
+	display:flex
+	position: sticky;
+	border-radius: 10px;
+	width: 15vw;
+	height: 20vw;
+	z-index: 2;
+	
+	border: 1px solid #88E1F0;
+	object-fit: cover;
+	/*object-fit: contain;*/
+}
+
+
+
+
+
+.foot{
+	width:0px;
+	background-color: transparent;
+    height: 11vh;
+	
+	display: flex;
+    position:fixed;
+	justify-content: center;
+	z-index:3;
+	/*background-image: url("img/head.jpg");
+	background-size:auto;
+	background-position: center;*/
+	bottom:0%;
+	left: 30%;
+}	
+.button{
+	z-index: 2;
+	/*background-color: #47A6C9;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	position: fixed;
+	height: 10vh;
+	width: 0px;
+	
+	justify-content: center;
+	text-align: center;
+	left: 18vw;
+	bottom: 0px;
+	background-size: cover;
+	/*border: 3px solid yellow;*/
+}
+.button img{
+	z-index: 1;
+	/*background-color: #47A6C9;*/
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	position: relative;
+	display:flex;
+	width: 9vw;
+	height:8vw;
+	left: 9vw;
+	bottom: 1.5vw;
+	background-size: cover;
+    /*border: 3px solid red;*/
+	
+}
+.button a{
+	z-index: 2;
+	height: 40vh;
+	width: 50vw;
+	bottom: 0vw;
+	display: flex;
+	position: relative;
+	justify-content: center;
+		
+	left: 3vw;
+	
+	background-size: cover;
+	text-decoration: none;
+	/*border: 3px solid black;*/
+}
+.button p {
+	z-index:1;
+	display: flex;
+	position: relative;
+	/*font-family: 'Panton Rust';*/
+	font-family: 'Rubik Black';
+	color: #302F0C;
+	text-shadow:  2px 3px 23px #F1ED2F;
+	font-size: 3vw;
+	justify-content: center;
+	text-align: center;	
+	bottom: 0vw;
+	left: 0vw;
+	height: 15vh;
+	width: 50vw;
+	
+	/*border: 3px solid blue;*/
+}
+@keyframes slide1 {
+	from { 
+	transform: translateX(20vw);
+	}
+	to{
+		transform: translateX(-150vw);
+		}
+}
+
+
+.drop1 {
+	overflow: hidden;
+	z-index: 1;
+	display: flex;
+	position: relative;
+	animation-direction: normal;
+	animation-duration: 7.4s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 10vw;
+}
+.drop2 {
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	animation-direction: normal;
+	animation-duration: 9.7s;
+	animation-name: move2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 25vw;
+}
+
+.drop3 {
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	animation-direction: normal;
+	animation-duration: 7.4s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 35vw;
+}
+.drop4 {
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
+	position:relative;
+	animation-direction: normal;
+	animation-duration: 4s;
+	animation-name: move2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 55vw;
+}
+.drop5 {
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	animation-direction: normal;
+	animation-duration: 7s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 8vw;
+}
+.dropbase{
+	z-index:1;
+	height: 100vh;
+	display: inline;
+	position: fixed;
+	
+}
+@keyframes move1 {
+	from {
+		margin-top: -30vh;
+	}
+	to {
+		margin-top: 110vh;
+	}
+}
+@keyframes move2 {
+	from {
+		margin-top: -20vh;
+	}
+	to {
+		margin-top: 110vh;
+	}
+}	
+}
+
+
+/*transform: rotate(90deg);*/
+/*--------------------------------------------------------*/
