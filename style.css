@@ -476,7 +476,7 @@ padding: 50% auto;
 	position: relative;
 	/*font-family: 'Panton Rust';*/
 	font-family: 'Rubik Black';
-	color: #302F0C;
+	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
 	font-size: 3vw;
 	left: 50%;
@@ -757,7 +757,7 @@ padding: 50% auto;
 	position: relative;
 	/*font-family: 'Panton Rust';*/
 	font-family: 'Rubik Black';
-	color: #302F0C;
+	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
 	font-size: 3vw;
 	justify-content: center;
