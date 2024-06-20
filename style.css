@@ -576,8 +576,8 @@ padding: 50% auto;
 	display: run-in;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
-	left: 6vh;
-	top: 1vw;
+	left: 7vh;
+	top: 1.5vw;
 	font-size: 1.5vw;
 	
 	
@@ -595,7 +595,7 @@ padding: 50% auto;
 	font-weight: bold;
 	
 	
-	top: 2vw;
+	top: 3vw;
 	left: 2.5vw;
 	
 	font-size:1.5vw;
@@ -650,13 +650,13 @@ padding: 50% auto;
 	z-index:1;
 	font-family: 'Rubik Black';
 	/*width: 100vw;*/
-	width: 17vw;
+	
 	width: 20vw;
 	height: 30vw;
-	left: 1vh;
-	top: 2vh;
+	left: 0.1vw;
+	top: 2.5vh;
 	
-	font-size: 2vh;
+	font-size: 2.3vh;
 	
 	text-align: center;
 	color: #302F0C;
@@ -731,7 +731,7 @@ padding: 50% auto;
 	width: 9vw;
 	height:8vw;
 	left: 9vw;
-	bottom: 1.5vw;
+	bottom: 2vw;
 	background-size: cover;
     /*border: 3px solid red;*/
 	
