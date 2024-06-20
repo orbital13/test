@@ -156,7 +156,7 @@ body {
 	position: relative;
 	/*font-family: 'Panton Rust';*/
 	font-family: 'Rubik Black';
-	color: #302F0C;
+	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
 	font-size: 7vw;
 	top: 15px;
@@ -351,8 +351,8 @@ body {
 	font-size: 4vh;
 	position: absolute;
 	text-align: center;
-	color: #302F0C;
-	text-shadow:  1px 1px 23px #EBEDA9;
+	color: black;
+	text-shadow:  1px 1px 25px #EBEDA9;
 }
 .card2-content p {
 	
@@ -368,7 +368,7 @@ body {
 	font-size: 5vh;
 	position: absolute;
 	text-align: center;
-	color: #302F0C;
+	color: black;
 	text-shadow:  2px 3px 23px #EBEDA9;
 	
 }
@@ -402,7 +402,7 @@ body {
 	font-size: 2.8vh;
 	position: absolute;
 	text-align: center;
-	color: #302F0C;
+	color: black;
 	text-shadow:  1px 1px 25px #EBEDA9;
 	
 }
@@ -418,7 +418,7 @@ body {
 	font-size: 3vh;
 	position: absolute;
 	text-align: center;
-	color: #302F0C;
+	color: black;
 	text-shadow:  1px 1px 25px #EBEDA9;
 	
 }
@@ -567,8 +567,8 @@ padding: 50% auto;
 	width: 17vw;
 	height: 25vw;
 	
-	color: #302F0C;
-	text-shadow:  1px 1px 23px #EBEDA9;
+	color: black;
+	text-shadow:  1px 1px 25px #EBEDA9;
 }
 .card2-content p {
 	
@@ -576,29 +576,29 @@ padding: 50% auto;
 	display: run-in;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
-	left: 7vh;
-	top: 1.5vw;
+	left: 9vh;
+	top: 1.8vw;
 	font-size: 1.5vw;
 	
 	
 	display: flex;
 	position: relative;
 	/*text-align: center;*/
-	color: #302F0C;
+	color: black;
 	text-shadow:  1px 1px 23px #EBEDA9;
 	
 }
 .card2-content ul {
 	
 	z-index:3;
-	font-family: 'Lifehack Sans';
+	font-family: 'Rubik Black';
 	font-weight: bold;
 	
 	
-	top: 3vw;
-	left: 2.5vw;
+	top: 4vw;
+	left: 2vw;
 	
-	font-size:1.5vw;
+	font-size:2vh;
 	display: absolute; 
 	position: relative;
 	text-align: left;
@@ -620,7 +620,7 @@ padding: 50% auto;
 	height: 25vw;
 	font-size: 1.1vw;
 	text-align: center;
-	color: #302F0C;
+	color: black;
 	text-shadow:  1px 1px 23px #EBEDA9;
 	
 }
@@ -659,7 +659,7 @@ padding: 50% auto;
 	font-size: 2.3vh;
 	
 	text-align: center;
-	color: #302F0C;
+	color: black;
 	text-shadow:  1px 1px 25px #EBEDA9;
 	
 }
