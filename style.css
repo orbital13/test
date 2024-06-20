@@ -43,7 +43,7 @@ body {
 }
 @keyframes move1 {
 	from {
-		margin-top: -20vh;
+		margin-top: -17vh;
 	}
 	to {
 		margin-top: 110vh;
@@ -51,7 +51,31 @@ body {
 }
 @keyframes move2 {
 	from {
-		margin-top: -30vh;
+		margin-top: -19vh;
+	}
+	to {
+		margin-top: 110vh;
+	}
+}
+@keyframes move3 {
+	from {
+		margin-top: -24vh;
+	}
+	to {
+		margin-top: 110vh;
+	}
+}
+@keyframes move4 {
+	from {
+		margin-top: -22vh;
+	}
+	to {
+		margin-top: 110vh;
+	}
+}
+@keyframes move5 {
+	from {
+		margin-top: -20vh;
 	}
 	to {
 		margin-top: 110vh;
@@ -94,7 +118,7 @@ body {
 	position: absolute;
 	animation-direction: normal;
 	animation-duration: 6.4s;
-	animation-name: move1;
+	animation-name: move3;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	/*border: 1px solid black;*/
@@ -108,7 +132,7 @@ body {
 	position: absolute;
 	animation-direction: normal;
 	animation-duration: 7s;
-	animation-name: move2;
+	animation-name: move4;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	/*border: 1px solid black;*/
@@ -122,7 +146,7 @@ body {
 	position: absolute;
 	animation-direction: normal;
 	animation-duration: 5s;
-	animation-name: move1;
+	animation-name: move5;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	/*border: 1px solid black;*/
@@ -855,22 +879,77 @@ padding: 50% auto;
 	position: fixed;
 	
 }
-@keyframes move1 {
-	from {
-		margin-top: -30vh;
-	}
-	to {
-		margin-top: 110vh;
-	}
+.drop1 {
+	overflow: hidden;
+	z-index: 1;
+	display: inline-block;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 4.4s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 4vw;
 }
-@keyframes move2 {
-	from {
-		margin-top: -20vh;
-	}
-	to {
-		margin-top: 110vh;
-	}
-}	
+.drop2 {
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 4.7s;
+	animation-name: move2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 19vw;
+}
+
+.drop3 {
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 6.4s;
+	animation-name: move3;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 40vw;
+}
+.drop4 {
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 7s;
+	animation-name: move4;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 50vw;
+}
+.drop5 {
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 5s;
+	animation-name: move5;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*border: 1px solid black;*/
+	top: -10px;
+	left: 71vw;
+}
 }
 
 
