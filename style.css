@@ -241,10 +241,10 @@ body {
 	width: 50vw;
 	bottom: -3vh;	
 	border: 3px solid blue;
-	
+	margin-left: -1vh;
 	margin: auto;
 	*/
-	margin-right: 1vh;
+	
 	font-family: 'Rubik Black';
 	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
@@ -291,12 +291,12 @@ body {
 }
 .number img{
 
-	width:16vw;
-	height: 16vw;
+	width:15.5vw;
+	height: 15.5vw;
 	z-index: 1;
-	margin-bottom: -7px;
-	margin-left: 10px;
-	bottom: 0px;
+	margin-bottom: -5px;
+	margin-left: -1vh;
+	
 	
     /*border: 3px solid red;
 	position: relative;
@@ -314,7 +314,7 @@ body {
 	background: none;
 	white-space: nowrap;
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	align-items: center;
 	bottom:0px;
 	z-index:2;
