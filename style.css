@@ -602,13 +602,13 @@ background-image: url("img/bgh.jpg");
 background-repeat: no-repeat;
 background-size:100vw 100vh;
 /*border: 3px solid green;*/
-padding: 50% auto;	
+	
 }	
 	
 	.container{
 	display: flex;
-	position: absolute;
-	margin: 10px 10px;
+	position: relative;
+	margin: 15px 15px;
 	padding-top: 10vw;
 	/*top: 120px;
 	
@@ -736,7 +736,7 @@ padding: 50% auto;
 .card1-content p{
 	justify-content: center;
 	z-index :3;
-	display: run-in;
+	display: flex;
 	position: relative;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
@@ -750,18 +750,18 @@ padding: 50% auto;
 	text-shadow:  1px 1px 25px #EBEDA9;
 }
 .card2-content p {
-	
-	z-index :3;
-	display: run-in;
-	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
-	left: 9vh;
-	top: 1.8vw;
-	font-size: 1.5vw;
-	
-	
 	display: flex;
 	position: relative;
+	z-index :3;
+	font-family: 'Rubik Black';
+	/*font-family: 'Panton Rust';*/
+	justify-content: center;
+	top: 1.3vw;
+	font-size: 1.5vw;
+	width: 16vw;
+	
+	
+	
 	/*text-align: center;*/
 	color: black;
 	text-shadow:  1px 1px 23px #EBEDA9;
@@ -769,37 +769,43 @@ padding: 50% auto;
 }
 .card2-content ul {
 	
+	display: block; 
+	position: relative;
 	z-index:3;
 	font-family: 'Rubik Black';
 	font-weight: bold;
 	/*word-break: break-all;*/
-	line-height: 1.4;
-	top: 2.9vw;
+	top: 2.6vw;
 	left: 2.2vw;
+	
+	
+	text-align: l;
+	margin:  0px 0px;	
 	width: 17vw;
 	height: 25vw;
 	font-size:2vh;
-	display: absolute; 
-	position: relative;
-	text-align: left;
+	
 	color: #black;
 	text-shadow:  2px 3px 23px #EBEDA9;
 	
 	
 }
 .card3-content p {
-	display: run-in;
-	margin:  0 1%;	
-	display: inline-block; 
+	display: flex;
+	margin:  2vw 0px 0px 1.6vh;	
 	position: relative;
 	z-index :2;
 	font-family: 'Rubik Black';
-	left: 1vh;
+	/*left: 1vh;
 	top: 3.5vh;
-	width: 18vw;
-	height: 25vw;
-	font-size: 1.1vw;
+	justify-content: center;
 	text-align: center;
+	margin:  0px 0px;
+	*/
+	width: 17vw;
+	height: 28vw;
+	font-size: 1.05vw;
+	
 	color: black;
 	text-shadow:  1px 1px 23px #EBEDA9;
 	
