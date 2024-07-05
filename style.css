@@ -249,7 +249,7 @@ body {
 	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
 	font-size: 3.9vh;
-	margin-left: -3vh;
+	
 	white-space: nowrap;
 	
 	
@@ -336,7 +336,7 @@ body {
 	width:15vw;
 	height: 15vw;
 	z-index: 1;
-	margin-left: -5vh;
+	
 }
 
 .container{
