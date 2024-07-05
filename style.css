@@ -241,10 +241,10 @@ body {
 	width: 50vw;
 	bottom: -3vh;	
 	border: 3px solid blue;
-	margin-left: -1vh;
+	
 	margin: auto;
 	*/
-	
+	margin-left: -0.5vw;
 	font-family: 'Rubik Black';
 	color: black;
 	text-shadow:  2px 3px 23px #F1ED2F;
