@@ -7,10 +7,16 @@
 
 *{
 	max-width: 100vw;
-	/*max-height: 100vh;*/
-	z-index: 4;
+	/*
+	max-width: 100vw;
+	max-height: 100vh;
+	display: inline-block;
+	*/
+	
+	z-index: 1;
 	margin: 0;
-    padding: 0;	
+    padding: 0;
+		
 }
 body {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -23,23 +29,23 @@ body {
 	z-index: 1;
 }
 .drop1 img{
-	height:50px;
+	height:19px;
 	z-index: 1;
 }
 .drop2 img{
-	height:30px;
+	height:20px;
 	z-index: 1;
 }
 .drop3 img{
-	height:35px;
+	height:15px;
 	z-index: 1;
 }
 .drop4 img{
-	height:45px;
+	height:18px;
 	z-index: 1;
 }
 .drop5 img{
-	height:35px;
+	height:20px;
 	z-index: 1;
 }
 @keyframes move1 {
@@ -85,7 +91,7 @@ body {
 
 .drop1 {
 	overflow: hidden;
-	z-index: 1;
+	z-index: 2;
 	display: inline-block;
 	position: absolute;
 	animation-direction: normal;
@@ -98,7 +104,7 @@ body {
 	left: 20vw;
 }
 .drop2 {
-	z-index: 1;
+	z-index: 2;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -113,7 +119,7 @@ body {
 }
 
 .drop3 {
-	z-index: 1;
+	z-index: 2;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -127,7 +133,7 @@ body {
 	left: 40vw;
 }
 .drop4 {
-	z-index: 1;
+	z-index: 2;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -141,7 +147,7 @@ body {
 	left: 50vw;
 }
 .drop5 {
-	z-index: 1;
+	z-index: 2;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -157,20 +163,23 @@ body {
 .head{
 	
 	background-color: #47A6C9;
-    display: block;
-    height: 10vh;
-	width: 98.4vw;
-	/*padding: 3.3rem;*/
+    display: none;
 	position: relative;
+    height: 10vh;
+	width: 99vw;
+	/*padding: 3.3rem;
+	position: relative;
+	*/
+	
 	left: 0;
 	top: 0;
-	z-index:8;
+	z-index:1;
 	background-image: url("img/head.jpg");
 	
 	background-repeat: no-repeat;
-	 background-size: 98.4vw 10vh;
-	border-radius: 10px;
-	border: 4px inset #88E1F0;
+	 background-size: 99vw 10vh;
+	border-radius: 5px;
+	border: 4px outset #1686AD;
 	/*transform: translate(-10%, -10%);*/
 	
 }
@@ -189,31 +198,39 @@ body {
 	font-family: 'Rubik Black';
 	color: black;
 	text-shadow:  2px 3px 13px #F1ED2F;
-	font-size: 7vw;
+	font-size: 6vw;
 	vertical-align: middle;
 	text-align: center;
 	
 }
 .foot{
-	display: grid;
-	grid-template-rows: 100px auto 1fr;
-	grid-template-rows: 10vh;
 	
-	height: 9.9vh;
-	width: 98.4vw;
 	
+	
+	display: none;
+	/*
+	
+	position: static;
+	height: 10vh;
+	width: 100vw;
+	margin: 0px 80vw;	
 	background-image: url("img/head.jpg");
 	background-repeat: no-repeat;
-	 background-size: 98.4vw 9.9vh;
+	 background-size: 99vw 9.9vh;
 	white-space: nowrap;
+	grid-template-columns: 50px auto 1fr;
+	grid-template-columns: 10vh;
+	margin: 10px 10px 10px auto;
 	
 	
-	bottom:0px;
+	
+	top:1px;
 	z-index:3;
-	border-radius: 10px;
-	border: 4px inset #88E1F0;
-	/*
-	padding: 0px 10px 1vh 1vw;
+	border-radius: 5px;
+	border: 4px outset #1686AD;
+	
+	
+	
 	border: 3px solid white;
 	justify-content: center;
 	background: none;
@@ -222,56 +239,141 @@ body {
 	*/
 	
 }
-.foot p {
-	z-index:1;
-	grid-column-start: 2;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	display: flex;
-	position: relative;
-	align-items: center;
-	justify-content: center;
-	/*font-family: 'Panton Rust';
+
+}
+
+.number img{
+	/*
+	display: block;
+	position: static;
+	width:15.5vw;
+	height: 15.5vw;
+	z-index: 1;
+	margin-bottom: -5px;
 	
-	display: flex;
+	
+    border: 3px solid red;
 	position: relative;
-	left: 0vw;
-	height: 10vh;
-	width: 50vw;
-	bottom: -3vh;	
-	border: 3px solid blue;
+	border: 3px solid grey;
 	margin-left: -1vh;
-	margin: auto;
 	*/
 	
-	font-family: 'Rubik Black';
-	color: black;
-	text-shadow:  2px 3px 23px #F1ED2F;
-	font-size: 3.9vh;
+}
+
+
+
+
+/*.whatsapp img{
+	display: block;
+	position: relative;
+	width:15vw;
+	height: 15vw;
+	z-index: 1;
 	
+}*/
+
+.container{
+	display: block;
+	position; relative;
+	white-space: normal;
+	/*top: 120px;*/
+	left: 0;
+	z-index:3;	
+}
+.card0{
+	display: flex; 
+	position: sticky;
+	border: 1px solid #88E1F0;
+	z-index:3;
+	width: 0px;
+	height: 0px;
+	margin-left: auto;
+	margin-right: 80px;
+	
+	
+	
+	/*background: url("img/1.jpg");
+	margin-top: 40%;
+	background-repeat: no-repeat;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
+	height: 100vh;
+	border-radius: 10px;
+	*/
+}
+.card0-content
+	{
+	border: 3px solid green;
+	top: 30vh;
+	display: block;
+	position: relative;
+	z-index:1;
+	justify-content: flex-end;
+	/*
+	width: 100vw;
+	white-space: nowrap;*/
+	overflow: hidden;
+	}
+	
+.whatsapp{
+	
+	/*grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	*/
+	background: none;
 	white-space: nowrap;
+	display: flex;
+    position: relative;
+	/*border: 3px solid green;*/
+	height: 72px;
+	width: 72px;
+	right:0px;
+	z-index:1;
 	
 	
+}	
+.whatsapp a{
+	display: flex;
+	position: fixed;
+	z-index: 1;
+	height: 82px;
+	width: 82px;
+	/*border: 3px solid orange;*/
+	white-space: nowrap;
+	text-decoration: none;
+	background-image: url("img/whatsapp.gif");
+	background-repeat: no-repeat;
+	 background-size: 82px 82px;
+
 	
+	 
 }
 .number{
 	
+	height: 85px;
+	width: 85px;
+	background: none;
+    white-space: nowrap;
+	display: flex;
+    position: sticky;
+	
+	bottom: 0px;
+	
+	z-index:1;
+	left: 3vw;
+	/*
+	bottom:0px;
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 1;
 	grid-row-end: 1;
-	background: none;
-    white-space: nowrap;
-	
-	display: flex;
 	justify-content: right;
     align-items: center;
-	
-	bottom:0px;
-	z-index:3;
-	
-	/*
 	justify-content: center;
 	background-image: url("img/head.jpg");
 	align-items: center;
@@ -284,77 +386,27 @@ body {
 }		
 .number a{
 	
-	z-index: 2;
-	white-space: nowrap;
-	text-decoration: none;
-	/*border: 3px solid green;*/
-}
-.number img{
-
-	width:15.5vw;
-	height: 15.5vw;
-	z-index: 1;
-	margin-bottom: -5px;
-	
-	
-    /*border: 3px solid red;
-	position: relative;
-	border: 3px solid grey;
-	margin-left: -1vh;
-	*/
-	
-}
-.whatsapp{
-	
-	grid-column-start: 3;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	
-	background: none;
-	white-space: nowrap;
+	height: 85px;
+	width: 85px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	bottom:0px;
-	z-index:2;
-	
-	
-}	
-.whatsapp a{
-	
-	z-index: 2;
-
+	position: fixed;
+	z-index: 1;
 	white-space: nowrap;
 	text-decoration: none;
-		
-}
-
-
-
-.whatsapp img{
-	width:15vw;
-	height: 15vw;
-	z-index: 1;
-	
-}
-
-.container{
-	
-	
-	/*top: 120px;*/
-	left: 0;
-	z-index:3;	
+	/*border: 3px solid orange;*/
+	background-image: url("img/call1.gif");
+	background-repeat: no-repeat;
+	 background-size: 85px 85px;
 }
 .card1{
 	display: flex; 
 	position: sticky;
 	border: 1px solid #88E1F0;
-	z-index:8;
+	z-index:2;
 	background: url("img/1.jpg");
 	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
-	width: 100vw;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
 	height: 100vh;
 	border-radius: 10px;
 }
@@ -365,8 +417,8 @@ body {
 	z-index:2;
 	background: url("img/2.jpg");
 	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
-	width: 100vw;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
 	height: 100vh;
 	border-radius: 10px;
 }
@@ -377,8 +429,8 @@ body {
 	z-index:2;
 	background: url("img/3.jpg");
 	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
-	width: 100vw;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
 	height: 100vh;
 	border-radius: 10px;
 }
@@ -387,10 +439,10 @@ body {
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/tools.jpg");
+	background: url("img/tools4.jpg");
 	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
-	width: 100vw;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
 	height: 100vh;
 	border-radius: 10px;
 }
@@ -401,8 +453,8 @@ body {
 	z-index:2;
 	background: url("img/5.jpg");
 	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
-	width: 100vw;
+	 background-size: 99.8vw 100vh;
+	width: 99.8vw;
 	height: 100vh;
 	border-radius: 10px;
 }
@@ -429,7 +481,7 @@ body {
 	
 }
 .card5-content{
-	width: 95vw;
+	width: 70vw;
 	display: flex;
 	position: relative;
 	margin: auto;
@@ -486,7 +538,7 @@ body {
 	position: absolute;
 	text-align: center;
 	color: black;
-	text-shadow:  1px 1px 25px #EBEDA9;
+	text-shadow:  1px 1px 5px #EBEDA9;
 }
 .card2-content p {
 	
@@ -503,7 +555,7 @@ body {
 	
 	text-align: center;
 	color: black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	text-shadow:  2px 3px 5px #EBEDA9;
 	
 }
 .card2-content ul {
@@ -520,7 +572,7 @@ body {
 	position: absolute;
 	text-align: left;
 	color: #black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	text-shadow:  2px 3px 5px #EBEDA9;
 	
 	
 }
@@ -528,7 +580,7 @@ body {
 
 	z-index:1;
 	font-family: 'Rubik Black';
-	margin:  10% auto;
+	margin:  20% auto;
 	
 	
 	width: 80vw;
@@ -579,7 +631,8 @@ body {
 	display: flex;
 	position: relative;
 	z-index: 2;
-	width: 91%;
+	width: 75%;
+	/*height: 50%;*/
 	margin: auto;
 	
 }
@@ -620,7 +673,10 @@ background-size:100vw 100vh;
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
-
+.card0
+	{
+	display: none;
+	}
 	.head{
 	left: 50%;
 	width: 0px;
@@ -646,7 +702,6 @@ background-size:100vw 100vh;
 	text-shadow:  2px 3px 23px #F1ED2F;
 	font-size: 2.9vw;
 	left: 50%;
-	
 	text-align: center;
 	white-space: nowrap;
 	/*
@@ -696,7 +751,7 @@ background-size:100vw 100vh;
 	z-index:3;
 	background: url("img/3.jpg");
 	background-repeat: no-repeat;
-	background-size:20vw 30vw;
+	background-size:19vw 29vw;
 	width: 19vw;
 	height: 29vw;
 	/*justify-content: center;*/
@@ -709,9 +764,10 @@ background-size:100vw 100vh;
 	position: relative;
 	border: 1px solid #88E1F0;
 	z-index:3;
-	background: url("img/tools.jpg");
+	background: url('img/tools4.jpg') no-repeat center center / cover;
+	/*background: url("img/tools4.jpg");
 	background-repeat: no-repeat;
-	background-size:20vw 30vw;
+	background-size:20vw 30vw;*/
 	width: 19vw;
 	height: 29vw;
 	/*justify-content: center;
@@ -721,6 +777,7 @@ background-size:100vw 100vh;
 	box-shadow: 10px 5px 5px black;
 }
 .card5{
+	
 	margin:  3px 3px;	
 	display: flex;
 	position: relative;
@@ -754,7 +811,7 @@ background-size:100vw 100vh;
 	position: relative;
 	z-index :3;
 	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
+	
 	justify-content: center;
 	top: 1.3vw;
 	font-size: 1.5vw;
@@ -820,14 +877,6 @@ background-size:100vw 100vh;
 	width: 30vw;
 	height: 40vw;
 	
-	
-	/*display: inline-block;
-	position: relative;
-	z-index:3;
-	
-	white-space: nowrap;
-	overflow: hidden;
-	*/
 }
 
 
@@ -973,7 +1022,8 @@ background-size:100vw 100vh;
 	
 	
 }
-.number{
+.number
+	{
 	
 	grid-column-start: 1;
 	grid-column-end: 1;
@@ -1001,11 +1051,18 @@ background-size:100vw 100vh;
 	
 }		
 .number a{
-	
+	background: none;
 	z-index: 2;
 	white-space: nowrap;
 	text-decoration: none;
-	/*border: 3px solid green;*/
+	/*border: 3px solid green;
+	background-image: url("img/call1.gif");
+	background-repeat: no-repeat;
+	 background-size: 75px 75px;
+	
+	
+	
+	*/
 }
 .number img{
 
@@ -1042,7 +1099,7 @@ background-size:100vw 100vh;
 .whatsapp a{
 	
 	z-index: 2;
-
+	background: none;
 	white-space: nowrap;
 	text-decoration: none;
 		
@@ -1061,6 +1118,8 @@ background-size:100vw 100vh;
 
 
 
+
+
 @keyframes slide1 {
 	from { 
 	transform: translateX(20vw);
@@ -1070,78 +1129,6 @@ background-size:100vw 100vh;
 		}
 }
 
-
-.drop1 {
-	overflow: hidden;
-	z-index: 1;
-	display: flex;
-	position: relative;
-	animation-direction: normal;
-	animation-duration: 4.4s;
-	animation-name: move1;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	/*border: 1px solid black;*/
-	top: -10px;
-	left: 7vw;
-}
-.drop2 {
-	z-index: 1;
-	overflow: hidden;
-	display: flex;
-	position: relative;
-	animation-direction: normal;
-	animation-duration: 3.3s;
-	animation-name: move2;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	/*border: 1px solid black;*/
-	top: -10px;
-	left: 19vw;
-}
-
-.drop3 {
-	z-index: 1;
-	overflow: hidden;
-	display: flex;
-	position: relative;
-	animation-direction: normal;
-	animation-duration: 3.4s;
-	animation-name: move1;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	/*border: 1px solid black;*/
-	top: -10px;
-	left: 30vw;
-}
-.drop4 {
-	z-index: 1;
-	overflow: hidden;
-	display: flex;
-	position:relative;
-	animation-direction: normal;
-	animation-duration: 3s;
-	animation-name: move2;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	/*border: 1px solid black;*/
-	top: -10px;
-	left: 49vw;
-}
-.drop5 {
-	z-index: 1;
-	overflow: hidden;
-	display: flex;
-	position: relative;
-	animation-direction: normal;
-	animation-duration: 2s;
-	animation-name: move1;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	/*border: 1px solid black;*/
-	top: -10px;
-	left: 71vw;
-}
 .dropbase{
 	z-index:1;
 	height: 100vh;
