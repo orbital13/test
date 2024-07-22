@@ -256,9 +256,9 @@ body {
 }
 .arrow_down
 	{
-	margin: 89vh 0px 0px 0.1vw;	
+	margin: 92.5vh 0px 0px 80vw;	
 	display: flex; 
-	position: relative;
+	position: absolute;
 	/*border: 3px solid #88E1F0;*/
 	z-index:2;
 	width: 0px;
@@ -283,7 +283,7 @@ body {
 		}
 .arrow_up
 	{
-	margin: 0.1vh 0px 0px 0.1vw;	
+	margin: 0.1vh 0px 0px 80vw;	
 	display: flex; 
 	position: absolute;
 	/*border: 3px solid #88E1F0;*/
@@ -316,8 +316,8 @@ body {
 	z-index:3;
 	width: 0px;
 	height: 0px;
-	margin-left: 76%;
-	margin-right: 24%;
+	margin-left: 77%;
+	margin-right: 23%;
 	
 	
 	
@@ -333,7 +333,7 @@ body {
 .card0-content
 	{
 	/*border: 3px solid green;*/
-	top: 30vh;
+	top: 25vh;
 	display: block;
 	position: relative;
 	z-index:3;
@@ -378,8 +378,8 @@ body {
 }
 .number{
 	
-	height: 85px;
-	width: 85px;
+	height: 83px;
+	width: 83px;
 	background: none;
     white-space: nowrap;
 	display: flex;
@@ -388,8 +388,9 @@ body {
 	bottom: 0px;
 	
 	z-index:3;
-	left: 3vw;
+	
 	/*
+	left: 3vw;
 	bottom:0px;
 	grid-column-start: 1;
 	grid-column-end: 1;
@@ -409,8 +410,8 @@ body {
 }		
 .number a{
 	
-	height: 82px;
-	width: 82px;
+	height: 83px;
+	width: 83px;
 	display: flex;
 	position: fixed;
 	z-index: 2;
@@ -419,7 +420,7 @@ body {
 	/*border: 3px solid orange;*/
 	background-image: url("img/call1.gif");
 	background-repeat: no-repeat;
-	 background-size: 82px 82px;
+	 background-size: 83px 83px;
 }
 .mailto
 	{
@@ -519,15 +520,17 @@ body {
 }
 .card2-content p {
 	
-	z-index:3;
+	z-index:5;
 	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
+	/*font-family: 'Panton Rust';
+	
+	*/
 	display: flex;
-	width: 98vw;
+	width: 73vw;
 	position: absolute;
 	left: 12%;
-	top: 5.5vh;
-	width: 80vw;
+	top: 5.7vh;
+	text-wrap: nowrap;
 	font-size: 5vh;
 	
 	text-align: center;
@@ -702,16 +705,17 @@ body {
 
 
 
-.map_small{
+.map_small
+	{
 	display: none;
-}
+	}
 .map_big{
 	display: flex;
-	position: relative;
+	position: absolute;
 	z-index: 2;
-	width: 75%;
+	width: 85%;
 	/*height: 50%;*/
-	margin: auto;
+	margin: 20% 4vw;
 	
 }
 /*------------------------------------------------------------------*/
@@ -725,6 +729,8 @@ body {
    /*overflow: none;*/
 	
 }
+
+
 body{
 	z-index: 3;
 	width: 100vw;
@@ -1023,10 +1029,12 @@ background-size:100vw 100vh;
 }
 .map_small{
 	display: flex;
-	position: relative;
+	width; 100%;
+	position: absolute;
 	z-index: 2;
-	margin: auto;
+	margin: 20% 40px;
 	justify-content: center;
+	
 }
 .slide1{
 	z-index:1;
@@ -1061,7 +1069,7 @@ background-size:100vw 100vh;
 	grid-template-rows: 8vh;
 	
 	
-	
+	text-decoration: none;
 	background: none;
 	white-space: nowrap;
 	margin: 0% 0% 0% 24%;
