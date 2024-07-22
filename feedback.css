@@ -1,0 +1,61 @@
+@font-face{
+	font-family: 'Rubik Black';
+	src: local('Rubik Black'),url('fonts/Rubik Black.ttf');
+}
+body
+	{
+		width: 100vw;
+	height: 100vh;
+	}
+.forma
+	{
+	display: flex; 
+	position: sticky;
+	border: 1px solid #88E1F0;
+	z-index:4;
+	background: url("img/1.jpg");
+	background-repeat: no-repeat;
+	 background-size: 99.8vw 100vh;
+	width: 95vw;
+	height: 99vh;
+	border-radius: 40px;
+	padding: 0px 0px 0px 0px;	
+	}
+.forma p
+	{
+		width: 90vw;
+		text-shadow:  1px 1px 5px #EBEDA9;
+		margin: 0px 0px 0px 0px;
+		font-family: 'Rubik Black';
+		font-size: 2.7vh;
+		text-align: center;
+		/*white-space: nowrap;*/
+		justify-content: center;
+	}
+.forma input
+	{
+		width: 40vw;
+		height: 4vh;
+		margin: auto 15%;
+	}
+.forma button
+	{	
+		display: block;
+		position: relative;
+		margin: auto 27%;
+		text-align: center;
+		border-radius: 40px;
+		display: flex;
+		width: 41vw;
+		height: 4vh;
+		
+	}
+.forma textarea
+	{
+		
+	width: 80vw;
+	height: 25vh;	
+	font-family: 'Rubik Black';
+		font-size: 2.7vh;	
+		
+	}
