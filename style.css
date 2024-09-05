@@ -4,6 +4,11 @@
 	font-family: 'Rubik Black';
 	src: local('Rubik Black'),url('fonts/Rubik Black.ttf');
 }
+@font-face{
+	
+	font-family: 'ViaodaLibre-Regular';
+	src: local('ViaodaLibre-Regular'),url('fonts/ViaodaLibre-Regular.ttf');
+}
 
 *{
 	max-width: 100vw;
@@ -256,7 +261,7 @@ body {
 }
 .arrow_down
 	{
-	margin: 88vh 0px 0px 80vw;	
+	margin: 90vh 0px 0px 87vw;	
 	display: flex; 
 	position: absolute;
 	/*border: 3px solid #88E1F0;*/
@@ -271,19 +276,19 @@ body {
 		display: flex;
 		position: absolute;
 		z-index: 1;
-		height: 60px;
-		width: 60px;
+		height: 50px;
+		width: 50px;
 	/*border: 3px solid orange;*/
 		white-space: nowrap;
 		text-decoration: none;
 		background-image: url("img/arrow_down.gif");
 		background-repeat: no-repeat;
-		background-size: 60px 60px;	
+		background-size: 50px 50px;	
 			
 		}
 .arrow_up
 	{
-	margin: 0.1vh 0px 0px 80vw;	
+	margin: 20px 0px 0px 87vw;	
 	display: flex; 
 	position: absolute;
 	/*border: 3px solid #88E1F0;*/
@@ -298,14 +303,14 @@ body {
 		display: flex;
 		position: absolute;
 		z-index: 1;
-		height: 60px;
-		width: 60px;
+		height: 50px;
+		width: 50px;
 	/*border: 3px solid orange;*/
 		white-space: nowrap;
 		text-decoration: none;
 		background-image: url("img/arrow_up.gif");
 		background-repeat: no-repeat;
-		background-size: 60px 60px;	
+		background-size: 50px 50px;	
 			
 		}			
 
@@ -316,12 +321,18 @@ body {
 	z-index:3;
 	width: 0px;
 	height: 0px;
-	margin-left: 77%;
-	margin-right: 23%;
+	margin-left: auto;
+	margin-right: 16vw;
+	justify-content: flex-end;
+    
 	
-	
-	
-	/*background: url("img/1.jpg");
+	/*
+	align-items: center;
+	justify-content: center;
+	margin-left: 79%;
+	margin-right: 21%;
+	margin: 0px 10px 0px 0px;
+	background: url("img/1.jpg");
 	margin-top: 40%;
 	background-repeat: no-repeat;
 	 background-size: 99.8vw 100vh;
@@ -333,7 +344,7 @@ body {
 .card0-content
 	{
 	/*border: 3px solid green;*/
-	top: 25vh;
+	top: 26vh;
 	display: block;
 	position: relative;
 	z-index:3;
@@ -353,8 +364,9 @@ body {
 	display: flex;
     position: relative;
 	/*border: 3px solid green;*/
-	height: 82px;
-	width: 82px;
+	height: 8vh;
+	width: 8vh;
+	
 	right:0px;
 	z-index:3;
 	
@@ -364,32 +376,35 @@ body {
 	display: flex;
 	position: fixed;
 	z-index: 3;
-	height: 82px;
-	width: 82px;
-	/*border: 3px solid orange;*/
+	height: 8vh;
+	width: 8vh;
+	/*border: 3px solid orange;
+	height: 52px;
+	width: 52px;
+	
+	*/
 	white-space: nowrap;
 	text-decoration: none;
-	background-image: url("img/whatsapp.gif");
+	/*background-image: url("img/whatsapp.gif");
 	background-repeat: no-repeat;
-	 background-size: 82px 82px;
-
+	 background-size: 8vh 8vh;
+*/
 	
 	 
 }
 .number{
 	
-	height: 83px;
-	width: 83px;
+	height: 8vh;
+	width: 8vh;
 	background: none;
     white-space: nowrap;
 	display: flex;
     position: sticky;
-	
 	bottom: 0px;
-	
 	z-index:3;
-	
 	/*
+	height: 53px;
+	width: 53px;
 	left: 3vw;
 	bottom:0px;
 	grid-column-start: 1;
@@ -410,17 +425,17 @@ body {
 }		
 .number a{
 	
-	height: 83px;
-	width: 83px;
+	height: 8vh;
+	width: 8vh;
 	display: flex;
 	position: fixed;
 	z-index: 2;
 	white-space: nowrap;
 	text-decoration: none;
-	/*border: 3px solid orange;*/
+	/*border: 3px solid orange;
 	background-image: url("img/call1.gif");
 	background-repeat: no-repeat;
-	 background-size: 83px 83px;
+	 background-size: 8vh 8vh;*/
 }
 .mailto
 	{
@@ -430,8 +445,8 @@ body {
 	display: flex;
     position: relative;
 	/*border: 3px solid green;*/
-	height: 82px;
-	width: 82px;
+	height: 8vh;
+	width: 8vh;
 	right:0px;
 	z-index:1;
 	}
@@ -440,14 +455,14 @@ body {
 	display: flex;
 	position: fixed;
 	z-index: 1;
-	height: 82px;
-	width: 82px;
+	height: 8vh;
+	width: 8vh;
 	/*border: 3px solid orange;*/
 	white-space: nowrap;
 	text-decoration: none;
 	background-image: url("img/mailto.gif");
 	background-repeat: no-repeat;
-	 background-size: 82px 82px;
+	 background-size: 8vh 8vh;
 		
 		
 	}
@@ -459,8 +474,8 @@ body {
 	display: flex;
     position: relative;
 	/*border: 3px solid green;*/
-	height: 82px;
-	width: 82px;
+	height: 8vh;
+	width: 8vh;
 	right:0px;
 	z-index:1;	
 	}
@@ -469,14 +484,14 @@ body {
 	display: flex;
 	position: fixed;
 	z-index: 1;
-	height: 82px;
-	width: 82px;
+	height: 8vh;
+	width: 8vh;
 	/*border: 3px solid orange;*/
 	white-space: nowrap;
 	text-decoration: none;
 	background-image: url("img/login.gif");
 	background-repeat: no-repeat;
-	 background-size: 82px 82px;
+	 background-size: 8vh 8vh;
 	
 	}
 .card1{
@@ -494,13 +509,14 @@ body {
 .card1-content p{
 	
 	z-index :2;
-	
-	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
+	font-family: 'ViaodaLibre-Regular';
+	font-weight: bold;
+	/*font-family: 'Rubik Black';
+	font-family: 'Panton Rust';*/
 	left: 8%;
 	top: 9vh;
 	width: 80vw;
-	font-size: 4vh;
+	font-size: 4.3vh;
 	position: absolute;
 	text-align: center;
 	color: black;
@@ -521,9 +537,11 @@ body {
 .card2-content p {
 	
 	z-index:5;
-	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';
+	font-family: 'ViaodaLibre-Regular';
+	font-weight: bold;
 	
+	/*font-family: 'Panton Rust';
+	font-family: 'Rubik Black';
 	*/
 	display: flex;
 	width: 73vw;
@@ -541,14 +559,15 @@ body {
 .card2-content ul {
 	
 	z-index:2;
-	font-family: 'Rubik Black';
+	font-family: 'ViaodaLibre-Regular';
 	font-weight: bold;
+	list-style-type: none; /* Убирает буллиты */
 	line-height: 1.5;
 	
 	left: 14vw;
-	top: 14vh;
+	top: 15vh;
 	width: 80vw;
-	font-size: 3.3vh;
+	font-size: 3.4vh;
 	position: absolute;
 	text-align: left;
 	color: #black;
@@ -579,12 +598,13 @@ body {
 .card3-content p {
 
 	z-index:4;
-	font-family: 'Rubik Black';
+	font-family: 'ViaodaLibre-Regular';
+	font-weight: bold;
 	margin:  20% auto;
 	position: relative;
 	width: 80vw;
-	
-	font-size: 2.8vh;
+	top: -5vh;
+	font-size: 3.7vh;
 	
 	text-align: center;
 	color: black;
@@ -615,7 +635,8 @@ body {
 .card4 p {
 
 	z-index:1;
-	font-family: 'Rubik Black';
+	font-family: 'ViaodaLibre-Regular';
+	font-weight: bold;
 	width: 100vw;
 	display: flex;
 	left: 5vw;
@@ -653,7 +674,8 @@ body {
 	display: flex;
 	position: absolute;
 	z-index:1;
-	font-family: 'Rubik Black';
+	font-family: 'ViaodaLibre-Regular';
+	font-weight: bold;
 	width: 100vw;
 	justify-content: center;
 	left: 2vh;
@@ -952,9 +974,10 @@ background-size:100vw 100vh;
 	text-align: center;
 	margin:  0px 0px;
 	*/
+	top: 0;
 	width: 17vw;
 	height: 28vw;
-	font-size: 1.05vw;
+	font-size: 1.1vw;
 	
 	color: black;
 	text-shadow:  1px 1px 23px #EBEDA9;
@@ -1029,7 +1052,7 @@ background-size:100vw 100vh;
 }
 .map_small{
 	display: flex;
-	width; 100%;
+	/*width; 100%;*/
 	position: absolute;
 	z-index: 2;
 	margin: 20% 40px;
@@ -1064,20 +1087,23 @@ background-size:100vw 100vh;
 	width: 50vw;
 	
 	display: grid;
-	position: absolute;
-	grid-template-rows: 100px auto 1fr;
-	grid-template-rows: 8vh;
-	
-	
+	position: relative;
+	justify-content: center;
+	grid-template-rows:10vh 50vh 10vh;
+	grid-template-rows:10vh;
 	text-decoration: none;
 	background: none;
 	white-space: nowrap;
-	margin: 0% 0% 0% 24%;
 	
+	border: 3px solid white;
 	bottom:0px;
 	z-index:3;
 	border: none;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
 	/*
+	margin: 5% 0% 0% 24%;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	padding: 0px 10px 1vh 1vw;
@@ -1091,16 +1117,15 @@ background-size:100vw 100vh;
 }
 .foot p {
 	z-index:1;
-	grid-column-start: 2;
-	grid-column-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 1;
 	display: flex;
+	position: relative;
 	
-	align-items: center;
-	justify-content: center;
 	/*font-family: 'Panton Rust';
-	
+		margin: 10% 10% 10% 0%;
 	display: flex;
 	position: relative;
 	left: 0vw;
@@ -1108,7 +1133,8 @@ background-size:100vw 100vh;
 	width: 50vw;
 	bottom: -3vh;	
 	border: 3px solid blue;
-	
+	align-items: center;
+	justify-content: center;
 	margin: auto;
 	*/
 	
@@ -1118,7 +1144,9 @@ background-size:100vw 100vh;
 	font-size: 6vh;
 	
 	white-space: nowrap;
-	
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 0%;
 	
 	
 }
@@ -1133,13 +1161,16 @@ background-size:100vw 100vh;
     white-space: nowrap;
 	
 	display: flex;
-	justify-content: right;
-    align-items: center;
-	
+	position: relative;
+   
+	height: 10vh;
+	width: 10vh;
 	bottom:0px;
-	z-index:3;
+	z-index:2;
 	
 	/*
+	 align-items: center;
+	justify-content: right;
 	justify-content: center;
 	background-image: url("img/head.jpg");
 	align-items: center;
@@ -1151,68 +1182,102 @@ background-size:100vw 100vh;
 	
 }		
 .number a{
+	display: flex;
+	position: absolute;
 	background: none;
 	z-index: 2;
 	white-space: nowrap;
 	text-decoration: none;
-	/*border: 3px solid green;
 	background-image: url("img/call1.gif");
 	background-repeat: no-repeat;
-	 background-size: 75px 75px;
+	 background-size: 10vh 10vh;
+	/*border: 3px solid green;
 	
-	
-	
+	background-image: url("img/call1.gif");
+	background-repeat: no-repeat;
+	 background-size: 75px 75px;	
 	*/
-}
-.number img{
-
-	width:10vh;
 	height: 10vh;
-	z-index: 1;
-	margin-bottom: -5px;
-	
-	bottom: 0px;
-	
-    /*border: 3px solid red;
-	position: relative;
-	border: 3px solid grey;
-	*/
-	
+	width: 10vh;
 }
-.whatsapp{
-	
+.mailto
+	{
 	grid-column-start: 3;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 1;
+	background: none;
+    white-space: nowrap;
+			
 	
+	display: flex;
+    position: relative;
+	/*border: 3px solid green;*/
+	height: 10vh;
+	width: 10vh;
+	
+	z-index:1;
+	margin-left: 50%;
+	margin-right: 0%;
+	}
+.mailto a
+	{
+	display: flex;
+	position: absolute;
+	z-index: 1;
+	height: 10vh;
+	width: 10vh;
+	/*border: 3px solid orange;*/
+	white-space: nowrap;
+	text-decoration: none;
+	background-image: url("img/mailto.gif");
+	background-repeat: no-repeat;
+	 background-size: 10vh 10vh;
+	
+		
+	}
+
+.whatsapp{
+	
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 10vh;
+	width: 10vh;
 	background: none;
 	white-space: nowrap;
 	display: flex;
-	justify-content: left;
-	align-items: center;
+	position: relative;
+	/*justify-content: left;
+	 align-items: center;
+	justify-content: right;
+	justify-content: center;
+	align-items: center;*/
 	bottom:0px;
 	z-index:2;
-	
+	margin-left: -90%;
+	margin-right: 0%;
 	
 }	
 .whatsapp a{
-	
+	justify-content: right;
+	position: absolute;
+	height: 10vh;
+	width: 10vh;
 	z-index: 2;
 	background: none;
 	white-space: nowrap;
 	text-decoration: none;
-		
-}
-
-
-
-.whatsapp img{
-	width:9.5vh;
-	height: 9.5vh;
-	z-index: 1;
+	background-image: url("img/whatsapp.gif");
+	background-repeat: no-repeat;
+	background-size: 10vh 10vh;
 	
 }
+
+
+
+
 
 
 
